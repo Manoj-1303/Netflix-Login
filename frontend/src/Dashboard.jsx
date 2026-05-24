@@ -5,12 +5,12 @@ function Dashboard() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen bg-black text-white">
+    <div className="h-screen bg-black text-white flex flex-col">
       <div className="w-full p-5 bg-gradient-to-b from-black to-transparent">
         <h1 className="text-red-600 text-3xl font-bold">NETFLIX</h1>
       </div>
 
-      <div className="flex flex-col items-center justify-center h-[calc(100vh-100px)]">
+      <div className="flex-grow flex flex-col items-center justify-center px-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Welcome to the Dashboard</h1>
         <p className="text-gray-400 mb-8">You have successfully logged in.</p>
         
