@@ -17,7 +17,7 @@ function Login() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/login", { email, password });
+      const res = await axios.post("https://netflix-login-r9lw.onrender.com/login", { email, password });
 
       if (res.data.success) {
         navigate("/dashboard");
